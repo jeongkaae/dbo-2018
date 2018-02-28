@@ -7,9 +7,6 @@
         "eslint:recommended",
         "google"
     ],
-    "parserOptions": {
-        "sourceType": "module"
-    },
     "rules": {
         "require-jsdoc": "off",
         "no-console": "off",

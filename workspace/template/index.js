@@ -1,6 +1,5 @@
 console.log('i');
 
-
 function a() {
     console.log('aaa');
     const my_value = 'a';
