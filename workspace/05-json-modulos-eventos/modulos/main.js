@@ -1,4 +1,4 @@
-import { trimRight, trimLeft } from './text.js'
+import {trimRight, trimLeft} from './text.js';
 
 console.log('main.js');
 
