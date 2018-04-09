@@ -26,6 +26,10 @@ Opcionais:
 - One Dark Pro
 - Power Mode
 
+## Configurações do Visual Studio Code
+
+As configurações que uso no Visual Studio Code estão no arquivo `vscode-user-settings.json`, sintam-se a vontade para usá-las total ou parcialmente no seu vscode. Eu recomendo pelo menos o `wrap` e as _exclusions_ que melhora a performance nos projetos Node.js.
+
 ## Node
 
 A partir da linha de comando, execute `npm install`, isso vai gerar o diretório *node_modules*, que nunca deve ser copiado ou transferido por e-mail por exemplo, já que só depende do arquivo `package.json` para gerar novamente com o comando citado.
