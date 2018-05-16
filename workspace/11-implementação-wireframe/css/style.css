@@ -1,5 +1,93 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div.container {
+    width: 1000px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto;
+}
 h1 {
     font-family: 'Delius', cursive;
-
     font-size: 2em;
 }
+header {
+    height: 60px;
+    background-color: rgb(50, 50, 50);
+    color: rgb(225, 225, 225);
+    overflow: hidden;
+}
+header > img:first-child {
+    float: left;
+    /* border: 1px solid red; */
+    margin: 10px;
+}
+
+header h1 {
+    float: left;
+    margin-top: 15px;
+}
+
+header div {
+    float: right;
+    /* poderia fazer o mesmo com position/right
+    position: absolute;
+    right: 0;
+    */
+    /* border: 1px solid green; */
+    width: 200px;
+}
+
+header div img {
+    float: left;
+    margin: 10px;
+}
+
+header div p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+header div a {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    color: cyan;
+}
+section.noticias {
+    float: left;
+    width: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+section.noticias h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+section.noticias p {
+    text-align: justify;
+    /* espaço de parágrafo: */
+    text-indent: 1.5em;
+}
+article img {
+    float: right;
+}
+aside {
+    float: right;
+    width: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+footer {
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
