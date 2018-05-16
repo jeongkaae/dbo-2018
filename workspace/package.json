@@ -4,7 +4,7 @@
   "description": "Workspace com o ambiente node necessário para o Desenvolvimento Web",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "start": "live-server --ignore='**/node_modules/*'"
   },
   "keywords": [],
@@ -13,6 +13,7 @@
   "devDependencies": {
     "eslint": "^4.13.1",
     "eslint-config-google": "^0.9.1",
-    "live-server": "^1.2.0"
+    "live-server": "^1.2.0",
+    "mocha": "^5.1.1"
   }
 }
